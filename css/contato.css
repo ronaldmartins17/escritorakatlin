@@ -12,24 +12,24 @@
     --cor2:black;
     --main:#ffffff;
 }
-body{
-    background-image: url(Katlin-imagens/livro4.jpg);
-}
 main{
     min-width: 250px;
     max-width: 900px;
     background-color: var(--main);
     margin: auto;
-    display: flex;
     padding: 20px;
 }
 main h1{
-
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+main h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 12px;
 }
 main p{
     font-size: 18px;
@@ -40,20 +40,4 @@ main p{
     padding-left: 17px;
     padding-right: 17px;
     padding-bottom: 17px;
-
 }
-h1{
-    color:rgb(0, 0, 0);
-
-}
-img{
-    max-width: 150px;
-
-}
-.imagens{
-    display: flex;
-    align-items:flex;
-
-    
-}
-
