@@ -8,8 +8,11 @@ main{
     max-width: 900px;
     background-color: var(--main);
     margin: auto;
-    display: flex;
     padding: 20px;
+
+}
+article{
+    display: block;
 }
 main h1{
 
@@ -17,7 +20,6 @@ main h1{
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    display: block;
 }
 main p{
     font-size: 18px;
@@ -36,14 +38,9 @@ h1{
 }
 .pic{
     margin-right: 20px;
-
 }
 img{
     max-width: 150px;
 
-}
-.imagens{
-    display: flex;
-    align-items:flex;
 }
 
