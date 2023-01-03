@@ -12,7 +12,7 @@ main{
 
 }
 article{
-    display: block;
+    display:flow-root;
 }
 main h1{
 
