@@ -13,7 +13,7 @@
     --main:#ffffff;
 }
 body{
-    background-image: url(livro3.jpg);
+    background-image: url(Katlin-imagens/livro4.jpg);
 }
 header{
     background: var(--header);
@@ -94,5 +94,7 @@ img{
 .imagens{
     display: flex;
     align-items:flex;
+
+    
 }
 
