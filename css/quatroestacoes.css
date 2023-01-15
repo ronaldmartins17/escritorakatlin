@@ -1,5 +1,23 @@
 @charset "utf-8";
 
-html{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+:root{
+    --dancing: 'Dancing Script', cursive;
+    --gloria: 'Gloria Hallelujah', cursive;
+}
+body{
+    background-color: white;
+}
+section.fundo{
+    background-color: rgb(99, 99, 194);
+}
+section{
+    padding: 4% 20% 4% 20%;
+
+}
+section p{
+    font-size: 35px;
+    font-family: var(--gloria);
 }
