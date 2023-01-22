@@ -10,14 +10,19 @@
 body{
     background-color: white;
 }
+
+section{
+    padding: 4% 20% 4% 20%;
+}
+
 section.fundo{
     background-color: rgb(99, 99, 194);
 }
-section{
-    padding: 4% 20% 4% 20%;
+
+section p{
+    font-size: 3vw;
+    font-family: var(--gloria);
 
 }
-section p{
-    font-size: 35px;
-    font-family: var(--gloria);
-}
+
+/*    font-variant: small-caps;      */
