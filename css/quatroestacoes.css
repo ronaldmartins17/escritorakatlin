@@ -14,15 +14,25 @@ body{
 section{
     padding: 4% 20% 4% 20%;
 }
-
-section.fundo{
-    background-color: rgb(99, 99, 194);
-}
-
 section p{
     font-size: 3vw;
     font-family: var(--gloria);
 
 }
+
+section.fundo{
+    background-color: rgb(99, 99, 194);
+}
+
+section.imagem{
+    background-color: blue;
+}
+
+section.imagem> p{
+    display: inline-block;
+    background-color: brown;
+    padding: 2%;
+}
+
 
 /*    font-variant: small-caps;      */
