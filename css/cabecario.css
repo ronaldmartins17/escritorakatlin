@@ -16,7 +16,8 @@ body{
     background-image: url(Katlin-imagens/livro4.jpg);
 }
 header{
-    background: var(--header);
+    /*background: var(--header);*/
+    background-image: url(imagens/as-quatro-estacoes-do-ano-em-folhas-scaled.webp);
     min-height: 170px;
     padding-top: 15px;
 

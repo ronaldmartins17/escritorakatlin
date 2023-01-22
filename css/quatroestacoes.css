@@ -9,9 +9,12 @@
 }
 
 section{
-    padding: 4% 5% 4% 5%;
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    padding:3vw 5% 3vw 5%;
+
 }
-section p{
+section.fundo p{
     font-size: 3vw;
     font-family: var(--gloria);
     
@@ -28,9 +31,9 @@ section.imagem{
 }
 
 section.imagem> p{
-    display: inline-block;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgba(0, 0, 0, 0.096);
-    padding: 3%;
     text-shadow: 2px 2px 0px;
     min-width: 2vw;
     max-width: 50vw;
